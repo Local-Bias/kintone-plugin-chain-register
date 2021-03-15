@@ -1,0 +1,30 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "name": {
+    "en": "chain register plugin",
+    "ja": "レコード連続入力プラグイン",
+    "zh": "插件模板"
+  },
+  "description": {
+    "en": "kintone-plugin-template",
+    "ja": "レコードを連続して登録したい場合に、画面遷移回数を減らすことができます",
+    "zh": "插件模板"
+  },
+  "desktop": {
+    "js": ["js/desktop.js"],
+    "css": []
+  },
+  "icon": "image/icon.png",
+  "config": {
+    "html": "html/config.html",
+    "js": ["js/config.js"],
+    "css": [],
+    "required_params": []
+  },
+  "mobile": {
+    "js": ["js/desktop.js"],
+    "css": []
+  }
+}
